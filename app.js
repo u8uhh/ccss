@@ -115,32 +115,29 @@ const results = [
 
 //Массив с вопросами
 const questions = [
-    new Question("When we use past continius?", [
+    new Question("When we use past simple?", [
         new Answer("when we say about time which happening now", 0),
-        new Answer("when we say about time which happened in past", 0),
-        new Answer("when we say about time which happen regularly", 0),
-        new Answer("when we say about time which happened in some time and didn't finish", 3)
+        new Answer("when we say about time which happened in past", 3),
+        new Answer("when we say about time which happen regularly", 0)
     ]),
 
-    new Question("How we build usual sentence in past continius?", [
-        new Answer("was/were+I/you/He/She/IT/They/We+verb+ing+another part of sentence", 0),
-        new Answer("I/you/He/She/IT/They/We+wasn't/weren't/+verb+ing+another part of sentence", 0),
-        new Answer("I/you/He/She/IT/They/We+was/were+verb+ing+another part of sentence", 3)
+    new Question("How we build usual sentence in past?", [
+        new Answer("Subject+Verb(Regular or Irregular)+another part", 3),
+        new Answer("Subject+didn't+verb(Regular or Irregular)+another part", 0),
+        new Answer("Did+Subject+Verb(Regular or Irregular)+another part", 0)
     ]),
 
-    new Question("How we build negative sentence in past continius?", [
-        new Answer("was/were+I/you/He/She/IT/They/We+verb+ing+another part of sentence", 0),
-        new Answer("I/you/He/She/IT/They/We+wasn't/weren't/+verb+ing+another part of sentence", 3),
-        new Answer("I/you/He/She/IT/They/We+was/were+verb+ing+another part of sentence", 0)
+    new Question("How we build asking sentence in past?", [
+        new Answer("Subject+Verb(Regular or Irregular)+another part", 0),
+        new Answer("Subject+didn't+verb(Regular or Irregular)+another part", 0),
+        new Answer("Did+Subject+Verb(Regular or Irregular)+another part", 3)
     ]),
 
-    new Question("How we build asking sentence in past continius?", [
-        new Answer("was/were+I/you/He/She/IT/They/We+verb+ing+another part of sentence", 3),
-        new Answer("I/you/He/She/IT/They/We+wasn't/weren't/+verb+ing+another part of sentence", 0),
-        new Answer("I/you/He/She/IT/They/We+was/were+verb+ing+another part of sentence", 0)
+    new Question("How we build negative sentence in past?", [
+        new Answer("Subject+Verb(Regular or Irregular)+another part", 0),
+        new Answer("Subject+didn't+verb(Regular or Irregular)+another part", 3),
+        new Answer("Did+Subject+Verb(Regular or Irregular)+another part", 0)
     ])
-
-
 ];
 
 //Сам тест
